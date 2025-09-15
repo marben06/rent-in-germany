@@ -136,10 +136,12 @@
 
     .separator {
         border-right: 1px solid var(--bright);
+        margin: 0.4rem;
     }
 
     .controls-container {
         padding: auto 2rem;
+        margin-right: 0.2rem;
     }
 
     .money-icon-container {
