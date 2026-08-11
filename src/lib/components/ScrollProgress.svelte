@@ -1,4 +1,6 @@
 <script>
+
+  import { scrollY } from "svelte/reactivity/window";
 	
 	let scrollProgress = $state(0);
 
@@ -19,7 +21,7 @@
 
 
 <header class="progress-container">
-  <div class="progress-bar" style:width={`${scrollProgress}%`}></div>
+  <div class="progress-bar" style:width={`${scrollY}%`}></div>
 </header>
 
 <style>

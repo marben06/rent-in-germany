@@ -124,52 +124,6 @@ onMount(() => {
     background-color: rgba(255, 255, 255, 0.8);
 }
 
-/* Dynamically created popup content needs :global() */
-:global(#pd) {
-    margin: 1rem;
-    font-family: 'Newsreader', serif;
-    width: 250px;
-    margin: 0.4rem;
-}
-
-:global(.regio2) {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.1rem;
-    margin: 0 0 5px 0;
-}
-
-:global(#regio3) {
-    margin: 0;
-    font-size: 0.9rem;
-    padding: 0;
-}
-
-:global(#location-information) {
-    margin: 0;
-}
-
-:global(#plz) {
-    margin: 0;
-    padding: 0;
-    font-size: 0.9rem;
-}
-
-:global(#rent-price-info) {
-    margin: 0.8rem 0;
-    margin-bottom: 0;
-    font-size: 0.9rem;
-    line-height: 1.2rem;
-
-}
-
-:global(#rent-price) {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 1.5rem;
-    margin: 0;
-    padding: 0;
-
-}
 
 @media (max-width: 900px) {
     #map {

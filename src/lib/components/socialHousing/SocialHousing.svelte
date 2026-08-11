@@ -68,7 +68,7 @@
                 />
             </div>
         {/if}
-        {#if observer && observer.isVisible}
+        {#if observer w observer.isVisible}
             <div in:fly={{ x: 200, duration: 2000, delay: 2000 }}>
                 <PopulationChart 
                     {homelessPeople} 
